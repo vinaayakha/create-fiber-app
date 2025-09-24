@@ -1,10 +1,10 @@
-# create-fiber-app
+# create-go-fiber-app
 
 Create production-ready Go Fiber applications with a single command. This CLI tool scaffolds a complete Go Fiber project with Docker support, hot reload, and best practices.
 
-![npm version](https://img.shields.io/npm/v/create-fiber-app)
-![license](https://img.shields.io/npm/l/create-fiber-app)
-![downloads](https://img.shields.io/npm/dt/create-fiber-app)
+![npm version](https://img.shields.io/npm/v/create-go-fiber-app)
+![license](https://img.shields.io/npm/l/create-go-fiber-app)
+![downloads](https://img.shields.io/npm/dt/create-go-fiber-app)
 
 ## ✨ Features
 
@@ -20,7 +20,7 @@ Create production-ready Go Fiber applications with a single command. This CLI to
 ## 🚀 Quick Start
 
 ```bash
-npx create-fiber-app my-app
+npx create-go-fiber-app my-app
 cd my-app
 make dev
 ```
@@ -38,19 +38,19 @@ That's it! Your Fiber application is now running with hot reload at http://local
 ### Create a new project
 
 ```bash
-npx create-fiber-app [project-name]
+npx create-go-fiber-app [project-name]
 ```
 
 ### With prompts (interactive mode)
 
 ```bash
-npx create-fiber-app
+npx create-go-fiber-app
 ```
 
 ### Skip prompts
 
 ```bash
-npx create-fiber-app my-app -y
+npx create-go-fiber-app my-app -y
 ```
 
 ## 📁 Project Structure
@@ -129,7 +129,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- Create an issue on [GitHub](https://github.com/vinaayakha/create-fiber-app/issues)
+- Create an issue on [GitHub](https://github.com/vinaayakha/create-go-fiber-app/issues)
 - Follow for updates
 
 ---
