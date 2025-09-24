@@ -1,6 +1,6 @@
 {
   "name": "create-go-fiber-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a production-ready Go Fiber web application with Docker support, hot reload, and best practices",
   "bin": {
     "create-fiber-app": "./bin/cli.js"
