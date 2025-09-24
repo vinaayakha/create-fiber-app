@@ -1,0 +1,57 @@
+{
+  "name": "create-fiber-app",
+  "version": "1.0.0",
+  "description": "Create a production-ready Go Fiber web application with Docker support, hot reload, and best practices",
+  "bin": {
+    "create-fiber-app": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "template"
+  ],
+  "scripts": {
+    "test": "node bin/cli.js test-app -y && rm -rf test-app",
+    "prepublishOnly": "npm run test",
+    "version": "npm run test && git add -A",
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [
+    "go",
+    "golang",
+    "fiber",
+    "fiber-framework",
+    "gofiber",
+    "docker",
+    "create-app",
+    "cli",
+    "scaffold",
+    "generator",
+    "boilerplate",
+    "template",
+    "hot-reload",
+    "air",
+    "makefile",
+    "docker-compose",
+    "rest-api",
+    "web-framework"
+  ],
+  "author": "Vinayak Iyer <vinuyer+fiberapp@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinaayakha/create-fiber-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vinaayakha/create-fiber-app/issues"
+  },
+  "homepage": "https://github.com/vinaayakha/create-fiber-app#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.5.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^8.2.5"
+  }
+}
