@@ -1,5 +1,5 @@
 {
-  "name": "create-fiber-app",
+  "name": "create-go-fiber-app",
   "version": "1.0.0",
   "description": "Create a production-ready Go Fiber web application with Docker support, hot reload, and best practices",
   "bin": {
